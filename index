@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anson Graumann - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Anson Graumann</h1>
+        <p>Plantation, Florida 33324 | 702-712-1205</p>
+        <p>Currently residing in Sarasota at New College of Florida</p>
+        <p>Email: <a href="mailto:Anson152@hotmail.com">Anson152@hotmail.com</a></p>
+    </header>
+
+    <section>
+        <h2>Objective</h2>
+        <p>Dedicated, dependable, and ready to work. Looking for an internship, preferably working in the community and helping kids, where I can showcase my current skills and gain new ones.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>New College of Florida - Computer Science Major</h3>
+        <p><strong>Graduation Date:</strong> May 2025 (Anticipated)</p>
+        <ul>
+            <li>Collegiate GPA: <strong>3.75</strong></li>
+            <li>Member of the <strong>National Society of Leadership and Success</strong></li>
+            <li>Relevant Courses: Java Programming, Web Programming, CompTIA A+</li>
+        </ul>
+
+        <h3>South Broward High School - High School Diploma</h3>
+        <p><strong>Graduation Date:</strong> June 2021</p>
+        <ul>
+            <li>GPA: <strong>3.8 unweighted, 4.7 weighted</strong></li>
+            <li>Ranked in <strong>Top 12%</strong> of class</li>
+            <li>Certifications: Inventor, AutoCAD, Fusion 360, JavaScript</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Relevant Experience</h2>
+        <ul>
+            <li><strong>SigmaC@ts Robotics Team</strong> - Helped with programming, team prep, and record keeping.</li>
+            <li><strong>Miami Marlins Events</strong> - Managed student groups at community events, afterschool programs.</li>
+            <li><strong>Pompano Beach High School</strong> - Coached baseball and softball players.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <h3>Usher - Miramar Cultural Center</h3>
+        <p><strong>Feb 2023 – Aug 2023</strong></p>
+        <ul>
+            <li>Ticket taker, registration, and greeter.</li>
+            <li>Front of House Operations: seating, customer service, guest experience.</li>
+        </ul>
+
+        <h3>Event Staff - CSI</h3>
+        <p><strong>May 2022 – Aug 2022</strong></p>
+        <ul>
+            <li>Client liaison for transportation, event setup & strike, and event registration.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Volunteer Experience</h2>
+        <ul>
+            <li><strong>Miami Marlins (2022 – 2023)</strong> - Assisted in community events, youth programs.</li>
+            <li><strong>Catching Instructor (2022 – 2023)</strong> - Coached varsity & JV baseball catchers.</li>
+            <li><strong>City of Sunny Isles Beach (2018 – 2021)</strong> - Worked as a youth counselor for summer/afterschool programs.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>References</h2>
+        <ul>
+            <li><strong>Jay Cohen</strong> - Pompano Beach High School | <a href="mailto:Coachjaycohen@gmail.com">Coachjaycohen@gmail.com</a></li>
+            <li><strong>Shannon Johnson</strong> - Miami Marlins | <a href="mailto:sjohnson@marlins.com">sjohnson@marlins.com</a></li>
+            <li><strong>Terry Johnson</strong> - City of Fort Lauderdale | <a href="mailto:Terryj2863@yahoo.com">Terryj2863@yahoo.com</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
