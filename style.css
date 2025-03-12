@@ -12,7 +12,10 @@ header {
     padding: 15px;
     border-radius: 8px;
 }
-
+header a {
+    color: white; 
+    text-decoration: underline; 
+}
 h1, h2 {
     color: #333;
 }
