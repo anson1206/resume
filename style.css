@@ -178,3 +178,20 @@ html {
     color: #0056b3;
     text-decoration: underline;
 }
+
+.download-button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .download-button a {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download-button a:hover {
+            background-color: #0056b3;
+        }
