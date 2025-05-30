@@ -1,181 +1,70 @@
-/* Reset & Base */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-/* Container */
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-/* Header */
-.header-section {
-    text-align: center;
-    padding: 40px 0 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 30px;
-}
-
-.header-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #222;
-}
-
-.contact p {
-    margin: 6px 0;
-    font-size: 1rem;
-    color: #333;
-}
-
-.contact i {
-    margin-right: 8px;
-    color: #007BFF;
-}
-
-.contact a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
-
-.social-links a {
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-/* Nav Bar */
-nav {
-    background-color: #333;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 10px;
-    background-color: #444;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
-
-/* Headings */
-h1, h2, h5 {
-    color: #222;
-}
-
-h2 {
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 5px;
-    scroll-margin-top: 100px;
-    margin-top: 80px;
-    font-size: 1.8em;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #555;
-}
-
-/* Skills */
-.skills-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.skills-list li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-/* Projects */
-.project {
-    margin-bottom: 30px;
-    padding: 20px;
-    border-left: 4px solid #007BFF;
-    background-color: #fefefe;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-}
-
-.project h5 {
-    margin: 0 0 8px;
-    font-size: 1.3em;
-    color: #007BFF;
-}
-
-.project p {
-    margin: 0 0 10px;
-}
-
-.project ul {
-    padding-left: 20px;
-    margin: 0;
-}
-
-.project li {
-    margin-bottom: 6px;
-}
-
-.project a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-@media print {
-  .page-break {
-    page-break-before: always;
-  }
-}
-
-
-.project a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
+ @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                margin: 0;
+                padding: 0;
+            }
+            nav,
+            footer {
+                display: none;
+            }
+            .container {
+                padding: 0;
+                margin: 0;
+                max-width: 100%;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .header-section, nav, .container, footer {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .header-section {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #444;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .contact p, .contact a {
+            color: #fff;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .skills-list li {
+            margin-bottom: 8px;
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 40px;
+        }
+     
